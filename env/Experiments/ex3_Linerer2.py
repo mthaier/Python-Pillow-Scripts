@@ -30,4 +30,3 @@ with Image.open(sys.argv[1]) as im:
             _x,_y=x+xEff,y
 
     im2.show()
-    im2.save("x.jpg")
