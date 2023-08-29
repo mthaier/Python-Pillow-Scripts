@@ -24,4 +24,3 @@ with Image.open(sys.argv[1]) as im:
             draw.ellipse(xy,outline=c)
 
     im2.show()
-    im2.save("x.jpg")
