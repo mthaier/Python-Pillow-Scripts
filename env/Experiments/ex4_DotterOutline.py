@@ -1,5 +1,5 @@
 """
-    Experiment 3
+    Experiment 4
     Convert image to circles of varying size and color
     Showcase: https://www.instagram.com/p/Cwges6VIQ8w/
 """
@@ -24,4 +24,3 @@ with Image.open(sys.argv[1]) as im:
             draw.ellipse(xy,outline=c)
 
     im2.show()
-    im2.save("x.jpg")
