@@ -1,5 +1,5 @@
 """
-    Experiment 3
+    Experiment 4
     Convert image to circles of varying size and color
     Showcase: https://www.instagram.com/p/Cwges6VIQ8w/
 """
