@@ -8,3 +8,4 @@ generative art/experimental filters I made with Python
 4. Convert an image to outlined circles of varioys radiuses, https://www.instagram.com/p/Cwges6VIQ8w/
 5. Convert an image to a square fractal, https://www.instagram.com/p/CwhvGSEItUg/?img_index=1
 6. Based on experiment 5 but replace squares with circles, https://www.instagram.com/p/CwtyiyaIYfp/?img_index=1
+7. Convert an image to diagonal lines, based on experiment 5; it has Quad Tree vibes, https://www.instagram.com/p/CwuqOF0o62N/?img_index=1
