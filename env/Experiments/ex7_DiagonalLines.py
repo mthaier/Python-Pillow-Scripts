@@ -38,4 +38,3 @@ with Image.open(sys.argv[1]) as im:
 
     Helper((0,0,im.size[0]-1,im.size[1]-1),0)
     im2.show()
-    im2.save("x.jpg")
