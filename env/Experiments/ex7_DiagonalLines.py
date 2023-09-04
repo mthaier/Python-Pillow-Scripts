@@ -5,6 +5,7 @@
 """
 import sys, os
 from PIL import Image,ImageDraw
+import numpy as np
 
 c1=(0,0,0)
 c2=(200,200,200)
@@ -17,12 +18,11 @@ with Image.open(sys.argv[1]) as im:
         l=xy[2]-xy[0]
         if l<3:
             return
-        s=0
-        for x in range(xy[0],xy[2]):
-            for y in range(xy[1],xy[3]):
-                s+=im1.getpixel((x,y))
-        if s/(l**2)<t:
-            return
+
+        # sum area of image
+        subimg = im1.crop(xy)
+        data = np.asarray(subimg, dtype="int32")
+        s = data.sum()
         
         c=im1.getpixel((xy[0],xy[1]))
         draw.line(xy, fill=(c,c,c))
@@ -38,4 +38,3 @@ with Image.open(sys.argv[1]) as im:
 
     Helper((0,0,im.size[0]-1,im.size[1]-1),0)
     im2.show()
-    im2.save("x.jpg")
