@@ -5,7 +5,6 @@
 """
 import sys, os
 from PIL import Image,ImageDraw
-import numpy as np
 
 c1=(0,0,0)
 c2=(200,200,200)
@@ -20,11 +19,6 @@ with Image.open(sys.argv[1]) as im:
         h = xy[3] - xy[1]
         if w < 3 or h < 3:
             return
-
-        # sum area of image
-        subimg = im1.crop(xy)
-        data = np.asarray(subimg, dtype="int32")
-        s = data.sum()
 
         s=0
         for x in range(xy[0],xy[2]):
