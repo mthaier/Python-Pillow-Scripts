@@ -11,3 +11,5 @@ generative art/experimental filters I made with Python
 7. Convert an image to diagonal lines - based on experiment 5; it has Quad Tree vibes, https://www.instagram.com/p/CwuqOF0o62N/?img_index=1
 8. Bad image to Rubik Mosaic art converter - https://www.instagram.com/p/Cw5hlhyNxYE
 9. Image to ASCII art - https://www.instagram.com/p/Cw7_mUuIwju/?img_index=3
+10. Image to vertical lines varying in width - https://www.instagram.com/p/CyttnULoZn7/
+11. Image to squares - https://www.instagram.com/p/CywKYDHIsvI/
