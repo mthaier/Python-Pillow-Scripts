@@ -13,3 +13,4 @@ generative art/experimental filters I made with Python
 9. Image to ASCII art - https://www.instagram.com/p/Cw7_mUuIwju/?img_index=3
 10. Image to vertical lines varying in width - https://www.instagram.com/p/CyttnULoZn7/
 11. Image to squares - https://www.instagram.com/p/CywKYDHIsvI/
+12. Dithering(Maybe) - https://www.instagram.com/p/Cy3bWU7IVJE/
