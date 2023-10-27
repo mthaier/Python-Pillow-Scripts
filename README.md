@@ -14,3 +14,4 @@ generative art/experimental filters I made with Python
 10. Image to vertical lines varying in width - https://www.instagram.com/p/CyttnULoZn7/
 11. Image to squares - https://www.instagram.com/p/CywKYDHIsvI/
 12. Dithering(Maybe) - https://www.instagram.com/p/Cy3bWU7IVJE/
+13. Dithering(Maybe) based on a quadtree-like base - https://www.instagram.com/p/Cy5vY3OID96/
