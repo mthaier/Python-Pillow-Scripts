@@ -1,7 +1,7 @@
 """
     Experiment 14
     Delauany trianulgation filter, points position based on quad-tree-like algorithm
-    Showcase: https://www.instagram.com/p/CywKYDHIsvI/
+    Showcase: https://www.instagram.com/p/Cy6tX7eoJRY/
 """
 import sys
 import math
