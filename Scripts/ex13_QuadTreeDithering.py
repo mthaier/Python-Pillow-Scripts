@@ -33,12 +33,10 @@ with Image.open(sys.argv[1]) as imIn:
 		if (s/sN)<t:
 			return
 
-		#Render
+		#Draw
 		xC = int((rect[0]+rect[2])/2)
 		yC = int((rect[1]+rect[3])/2)
 		c = imBW.getpixel((rect[0],rect[1]))
-		#draw.rectangle(rect, outline=(c,c,c))
-		#draw.point((xC,yC), fill=(c,c,c))
 		draw.point((xC,yC), fill=c2)
 		#Subfractals
 		depth += 1
@@ -49,10 +47,4 @@ with Image.open(sys.argv[1]) as imIn:
 		Helper((xC,yC,rect[2],rect[3]), t, depth, maxDepth)
 		
 	Helper((0,0,imIn.size[0]-1,imIn.size[1]-1), t=0 , depth=0, maxDepth=9)
-	#imOut.show()
-	
-	out = Image.new('RGB',(w*2,h))
-	out.paste(imIn)
-	out.paste(imOut, (w,0))
-	out.show()
-	out.save('x.jpg')
+	imOut.show()
