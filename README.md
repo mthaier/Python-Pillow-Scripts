@@ -15,3 +15,5 @@ generative art/experimental filters I made with Python
 11. Image to squares - https://www.instagram.com/p/CywKYDHIsvI/
 12. Dithering(Maybe) - https://www.instagram.com/p/Cy3bWU7IVJE/
 13. Dithering(Maybe) based on a quadtree-like base - https://www.instagram.com/p/Cy5vY3OID96/
+14. Image to delaunay triangulation - https://www.instagram.com/p/Cy6tX7eoJRY/
+15. Divide image into rectangular fractals of custom vertical and horizontal steps - https://www.instagram.com/p/CzCUb-6IDzY/
