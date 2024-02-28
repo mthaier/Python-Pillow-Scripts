@@ -19,3 +19,4 @@ generative art/experimental filters I made with Python
 15. Divide image into rectangular fractals of custom vertical and horizontal steps - https://www.instagram.com/p/CzCUb-6IDzY/
 16. Convert image to Voronoi diagram - https://www.instagram.com/p/CzQlmQmox7v/
 17. Flow field based on image data - https://www.instagram.com/p/CzTYaxioxDB/
+18. Convert image to B(black) W(white) letters -https://www.instagram.com/p/C305UGvIMlM

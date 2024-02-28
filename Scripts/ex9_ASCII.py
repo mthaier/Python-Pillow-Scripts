@@ -16,7 +16,7 @@ def GetCharacter(offset):
 
 c1=(0,0,0)
 c2=(255,255,255)
-fontPath="cambria.ttc"
+fontPath="font.ttf"
 xN=80
 
 with Image.open(sys.argv[1]) as im:

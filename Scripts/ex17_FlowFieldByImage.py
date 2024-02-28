@@ -11,8 +11,8 @@ from PIL import Image
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 
-c1 = (1,1,1)
-c2 = (0,0,0)
+c2 = (1,1,1)
+c1 = (0,0,0)
 with Image.open(sys.argv[1]) as imIn:
 	imIn = imIn.transpose(Image.FLIP_TOP_BOTTOM)
 	imBW = imIn.convert('L')
