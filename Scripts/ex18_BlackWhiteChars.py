@@ -1,5 +1,5 @@
 """
-    Experiment 20
+    Experiment 18
     Convert image to a set of B(black) and W(white) characters
     Showcase: https://www.instagram.com/p/C305UGvIMlM://www.instagram.com/p/C305UGvIMlM/
 """
